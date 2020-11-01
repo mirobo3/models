@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<sdf version="1.6">
+<model name="card">
+  <pose>0 0 0.5 0 0 0</pose>
+    <link name="link">
+      <inertial>
+        <mass>0.002</mass>
+        <inertia>
+          <ixx>0.0</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>0.0</iyy>
+          <iyz>0.0</iyz>
+          <izz>0.0</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.0003 0.057 0.089</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.0003 0.057 0.089</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
