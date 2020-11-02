@@ -8,5 +8,7 @@ https://www.amazon.co.jp/gp/product/B07CSN9JSL?pf_rd_r=V0T60EXS1CY06BG48WXQ&pf_r
 ~/.gazebo/models 最初からmodelsはあるので中にcard,card_standディレクトリを入れるだけで大丈夫なはず。 
 他の所だとパスを通さないとgazeboがmodelを認識できないはず。
 
+crane_x7_rosのcrane_x7_ros/crane_x7_gazebo/のworlds,launchディレクトリを最新の物にする必要あり。
 
+**実行する時**
 roslaunch crane_x7_gazebo crane_x7_card_stand.launch
