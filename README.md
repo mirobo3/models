@@ -7,3 +7,6 @@ https://www.amazon.co.jp/gp/product/B07CSN9JSL?pf_rd_r=V0T60EXS1CY06BG48WXQ&pf_r
 **モデル置き場所**
 ~/.gazebo/models 最初からmodelsはあるので中にcard,card_standディレクトリを入れるだけで大丈夫なはず。 
 他の所だとパスを通さないとgazeboがmodelを認識できないはず。
+
+
+roslaunch crane_x7_gazebo crane_x7_card_stand.launch
