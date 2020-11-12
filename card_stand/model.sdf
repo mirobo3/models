@@ -17,14 +17,14 @@
       <collision name="collision">
         <geometry>
 	  <mesh>
-		  <uri>model://card_stand/card_stand_1mm.dae</uri>	
+		  <uri>model://card_stand/card_stand_2mm.dae</uri>	
           </mesh>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh>
-		  <uri>model://card_stand/card_stand_1mm.dae</uri>
+		  <uri>model://card_stand/card_stand_2mm.dae</uri>
           </mesh>
         </geometry>
       </visual>
