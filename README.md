@@ -7,7 +7,7 @@ https://www.amazon.co.jp/gp/product/B07CSN9JSL?pf_rd_r=V0T60EXS1CY06BG48WXQ&pf_r
 **モデル置き場所**
 ~/.gazebo/models 
 
-crane_x7_ros_team3_2020/crane_x7_gazebo/のworlds,launchディレクトリが必要です。
+crane_x7_ros_team3_2020/crane_x7_gazebo/下のworlds,launchディレクトリが必要です。
 
 **実行する時**
 roslaunch crane_x7_gazebo crane_x7_card_stand.launch
