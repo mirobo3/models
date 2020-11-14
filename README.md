@@ -17,8 +17,8 @@ rosrun crane_x7_examples test.py
 
 ## モデルの作成方法（wslの場合）  
 ### 注意  
-あくまで自己流の方法なのでもっといい方法があるかもしれません  
-  
+あくまで一部自己流の方法なのでもっといい方法があるかもしれません  
+
 事前にubuntuでモデルを置くディレクトリを作成しておきます  
 例：penのモデル  
 ### windows側の操作
@@ -41,4 +41,6 @@ ubuntu-18.04/home/username/.gazebo/models/pen
 6,worldファイルを書き換える  
   
 7,launchファイルを書き換える → 完成：roslaunchで実行すればgazebo上にモデルがある状態　　
-
+  
+参考にさせて頂いたサイト  
+[https://qiita.com/srs/items/ac242e46177c2b797a7b](https://qiita.com/srs/items/ac242e46177c2b797a7b)
