@@ -3,14 +3,6 @@
 
 
 
-## モデル置き場所  
-~/.gazebo/models 
-
-crane_x7_ros_team3_2020/crane_x7_gazebo/下のworlds,launchディレクトリが必要です。
-
-## 実行する時  
-roslaunch crane_x7_gazebo crane_x7_card_stand.launch  
-rosrun crane_x7_examples test.py
 
 
 ![ダウンロード](https://user-images.githubusercontent.com/72371743/98934361-4d8c7380-2525-11eb-9d9b-b7446e183553.gif)
@@ -44,3 +36,12 @@ ubuntu-18.04/home/username/.gazebo/models/pen
   
 参考にさせて頂いたサイト  
 [https://qiita.com/srs/items/ac242e46177c2b797a7b](https://qiita.com/srs/items/ac242e46177c2b797a7b)
+
+## モデル置き場所  
+~/.gazebo/models 
+
+crane_x7_ros_team3_2020/crane_x7_gazebo/下のworlds,launchディレクトリが必要です。
+
+## 実行する時  
+roslaunch crane_x7_gazebo crane_x7_card_stand.launch  
+rosrun crane_x7_examples test.py
