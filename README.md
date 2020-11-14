@@ -27,7 +27,7 @@ pen.stl
 2,作成したstlファイルをblenderでインポートし、COLLADA形式(.dae)でエクスポートする（サイズに注意!!）  
 pen.stl → pen.dae  
   
-3,windowsの左下のタスクバー検索で"\\wsl$"でubuntu-18.04の中の自分がmodelを置きたい場所にwindowsから（コピーして）移す  
+3,windowsの左下のタスクバー検索で\\\wsl$と入力し、ubuntu-18.04の中の自分がmodelを置きたい場所にwindowsから（コピーして）移す  
 ubuntu-18.04/home/username/.gazebo/models/pen  
 
 ### ubuntu側の操作
