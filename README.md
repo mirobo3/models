@@ -17,19 +17,24 @@ roslaunch crane_x7_gazebo crane_x7_card_stand.launch
 
 ## モデルの作成方法（wslの場合）  
 事前にubuntuでモデルを置くディレクトリを作成しておく  
-例：penのモデル
+例：penのモデル  
 # windows側
 1,Inventorなど好きなCADソフトを使い、stlファイルを作成する  
 pen.stl  
+  
 2,作成したstlファイルをblenderでインポートし、COLLADA形式(.dae)でエクスポートする  
-pen.stl → pen.dae
+pen.stl → pen.dae  
+  
 3,windowsの左下のタスクバー検索で"\\wsl$"でubuntu-18.04の中の自分がmodelを置きたい場所にwindowsから（コピーして）移す  
-ubuntu-18.04/home/username/.gazebo/models/pen
+ubuntu-18.04/home/username/.gazebo/models/pen  
 
 ## ubuntu側
-4,モデルを置くために作成したディレクトリの中でmodel.sdf,model.configファイルを作成する
-~/.gazebo/models/penの下にmodel.sdf,model.config
+4,モデルを置くために作成したディレクトリの中でmodel.sdf,model.configファイルを作成する  
+~/.gazebo/models/penの下にmodel.sdf,model.config  
+  
 5,model.sdfとmodel.configの中身はgazeboのデフォルトモデル（~/.gazebo/modelsのwood_cube_5cmなど）のファイルを参考にして作成する  
-6,worldファイルを書き換える
-7,launchファイルを書き換える → 完成：roslaunchで実行すればgazebo上にモデルがある状態
+  
+6,worldファイルを書き換える  
+  
+7,launchファイルを書き換える → 完成：roslaunchで実行すればgazebo上にモデルがある状態　　
 
