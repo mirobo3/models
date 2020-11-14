@@ -16,19 +16,22 @@ roslaunch crane_x7_gazebo crane_x7_card_stand.launch
 ![ダウンロード](https://user-images.githubusercontent.com/72371743/98934361-4d8c7380-2525-11eb-9d9b-b7446e183553.gif)
 
 ## モデルの作成方法（wslの場合）  
-事前にubuntuでモデルを置くディレクトリを作成しておく  
+### 注意  
+あくまで自己流の方法なのでもっといい方法があるかもしれません  
+  
+事前にubuntuでモデルを置くディレクトリを作成しておきます  
 例：penのモデル  
-# windows側
+### windows側の操作
 1,Inventorなど好きなCADソフトを使い、stlファイルを作成する  
 pen.stl  
   
-2,作成したstlファイルをblenderでインポートし、COLLADA形式(.dae)でエクスポートする  
+2,作成したstlファイルをblenderでインポートし、COLLADA形式(.dae)でエクスポートする（サイズに注意!!）  
 pen.stl → pen.dae  
   
 3,windowsの左下のタスクバー検索で"\\wsl$"でubuntu-18.04の中の自分がmodelを置きたい場所にwindowsから（コピーして）移す  
 ubuntu-18.04/home/username/.gazebo/models/pen  
 
-## ubuntu側
+### ubuntu側の操作
 4,モデルを置くために作成したディレクトリの中でmodel.sdf,model.configファイルを作成する  
 ~/.gazebo/models/penの下にmodel.sdf,model.config  
   
