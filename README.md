@@ -36,7 +36,7 @@ ubuntu-18.04/home/username/.gazebo/models/pen
 ~/.gazebo/models/penの下にmodel.sdf,model.config  
   
 5,model.sdfとmodel.configの中身はgazeboのデフォルトモデル（~/.gazebo/modelsのwood_cube_5cmなど）のファイルを参考にして作成する  
-<uri>model://pen/pen.dae</uri>
+
   
 6,worldファイルを書き換える  
   
