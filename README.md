@@ -9,7 +9,8 @@
 crane_x7_ros_team3_2020/crane_x7_gazebo/下のworlds,launchディレクトリが必要です。
 
 ## 実行する時  
-roslaunch crane_x7_gazebo crane_x7_card_stand.launch
+roslaunch crane_x7_gazebo crane_x7_card_stand.launch  
+rosrun crane_x7_examples test.py
 
 
 ![ダウンロード](https://user-images.githubusercontent.com/72371743/98934361-4d8c7380-2525-11eb-9d9b-b7446e183553.gif)
