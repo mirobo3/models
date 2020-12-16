@@ -1,6 +1,7 @@
 # models
+## 中間
 ![gazebo_card_stand_model](https://user-images.githubusercontent.com/72371743/97830667-1510bc80-1d11-11eb-809c-ae885aaa81df.png)
-
+## 期末
 ![スクリーンショット 2020-12-12 202037](https://user-images.githubusercontent.com/72371743/102004046-548ae980-3d50-11eb-9ee6-228e8035516a.png)
 
 
@@ -45,8 +46,17 @@ ubuntu-18.04/home/username/.gazebo/models/pen
 
 crane_x7_ros_team3_2020/crane_x7_gazebo/下のworlds,launchディレクトリが必要です。
 
-## 実行する時  
+## 実行する時
+### 中間発表
+~~~
 roslaunch crane_x7_gazebo crane_x7_card_stand.launch  
 rosrun crane_x7_examples test.py  
+~~~
   
 ![ダウンロード](https://user-images.githubusercontent.com/72371743/98934361-4d8c7380-2525-11eb-9d9b-b7446e183553.gif)
+### 期末発表
+~~~
+roslaunch crane_x7_d435 bringup_sim_test.launch
+rosrun image cvbridge_hand_gesture_subpub_python.py
+rosrun crane_x7_examples main_node3.py
+~~~
